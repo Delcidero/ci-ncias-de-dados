@@ -1,0 +1,14 @@
+# calculadora
+# 2 * 4 = 8
+# 2 * 
+
+
+contador = 0
+multiplicador = int(input('informi o mutiplicador'))
+
+while contador <= 10:
+    produto = multiplicador * contador
+    print(multiplicador,' x ',contador ,'=',produto)
+    contador =contador + 1
+
+    print('fim!!!')
